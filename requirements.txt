@@ -1,0 +1,6 @@
+pydantic==1.10.2
+python-dotenv==0.21.0
+netports==0.5.2
+netmiko==4.1.2
+cisco-acl==1.2.2
+prettytable==3.4.1

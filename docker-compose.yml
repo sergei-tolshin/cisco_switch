@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  cisco:
+    build: .
+    volumes:
+      - ./output:/code/output
+    env_file:
+      - ./.env

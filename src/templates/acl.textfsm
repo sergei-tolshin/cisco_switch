@@ -1,0 +1,9 @@
+Value Filldown NAME (\S+)
+Value LINE (.*)
+
+Start
+  ^.*list\s+${NAME}
+  ^\s+${LINE} -> Record
+  # Capture time-stamp if vty line has command time-stamping turned on
+  ^Load\s+for\s+
+  ^Time\s+source\s+is
